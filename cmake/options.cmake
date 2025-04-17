@@ -60,6 +60,7 @@ set(WITH_SOURCE_TREE    "hierarchical" CACHE STRING "Build the source tree for I
 set_property(CACHE WITH_SOURCE_TREE PROPERTY STRINGS no flat hierarchical hierarchical-folders)
 option(WITHOUT_GIT      "Disable the GIT testing routines"                            0)
 option(TRANSMOG_PRESETS "Enable presets for transmogrification"                       1)
+option(DISABLE_DRESSNPCS_CORESOUNDS "Disable server side 'missing sounds' workaround" 0)
 option(BUILD_TESTING    "Build test suite"                                            0)
 
 if(UNIX)

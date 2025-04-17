@@ -17,10 +17,14 @@
 
 // This is where scripts' loading functions should be declared:
 void AddSC_Transmogrification();
+void AddSC_Transpolyporter();
+void AddSC_Commands();
 
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
 void AddCustomScripts()
 {
     AddSC_Transmogrification();
+    AddSC_Transpolyporter();
+    AddSC_Commands();
 }
